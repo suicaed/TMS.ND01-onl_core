@@ -16,10 +16,6 @@
     "url": "https://github.com/suicaed/TMS.ND01-onl_core/issues"
   },
   "homepage": "https://github.com/suicaed/TMS.ND01-onl_core#readme",
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "moment": "^2.29.1"
-  },
   "devDependencies": {
     "prettier": "2.6.0"
   }
