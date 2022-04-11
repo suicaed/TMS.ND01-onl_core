@@ -18,5 +18,8 @@
   "homepage": "https://github.com/suicaed/TMS.ND01-onl_core#readme",
   "devDependencies": {
     "prettier": "2.6.0"
+  },
+  "dependencies": {
+    "sharp": "^0.30.3"
   }
 }
