@@ -1,8 +1,8 @@
-import fsPromises from 'fs/promises'
-import path from 'path'
-import sharp from 'sharp'
+const fsPromises = require('fs/promises')
+const path = require('path')
+const sharp = require('sharp')
 
-export default class ImageEditor {
+module.exports = class ImageEditor {
   inputDir
   outputDir
   editorOptions = {}

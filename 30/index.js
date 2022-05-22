@@ -1,5 +1,5 @@
-import { argv } from 'process'
-import ImageEditor from './ImageEditor.mjs'
+const { argv } = require('process')
+const ImageEditor = require('./ImageEditor')
 
 const [resizeHeight, resizeWidth] = argv[2].split('x')
 const inputDirPath = argv[3]
