@@ -1,11 +1,15 @@
-# This is empty package
-## ¯\\_(ツ)_/¯
-### available commands:
-- to install all dependencies
-```
-npm i
-```
-- to install only production dependencies
-```
-npm i --production
-```
+# Homework 30 task 2
+
+### details:
+Задача 2(Уровень medium).
+Написать программу, которая читает все картинки из одной директории и складывает измененные картинки в другую.
+На вход програма получает в виде аргуменов командной строки(argv) три аргумента:
+ - размер в который должен произойти расайз в формате ВысотаxШирина, например 320x480 или 120x140
+ - полный путь к директории с которой считать все картинки(не забудьте отфильтровать файлы, там могут находить не только jpg, png, но и например txt)
+ - полный путь к директории в которую выгрузить картинки.(перед выгрузкой желательно почитить директорию от существующих в ней файлов) ответ как чистить директории тут  https://stackoverflow.com/questions/27072866/how-to-remove-all-files-from-directory-without-removing-directory-in-node-js
+
+В качестве ресайзера можно взять https://www.npmjs.com/package/sharp
+Документация: https://sharp.pixelplumbing.com/api-resize
+
+Пример запуска: "node resizer.js 480x600 /Users/va/resizer/input_dir /Users/va/resizer/output_dir"
+В результате все картинки из input_dir все картинки повляются в output_dir, но уже с измененным размером.
